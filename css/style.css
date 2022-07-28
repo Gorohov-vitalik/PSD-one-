@@ -1,58 +1,214 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;    
-margin: 0;
-padding: 0;
-    
- }
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+
+}
 
 body {
- width: 1366px;
+   width: 1366px;
 }
 
-    
- .global-section { 
-    margin: 0 60px 0 60px;
- }
 
- header { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 126px;
- }
+.global-section {
+   margin: 0 60px 0 60px;
+}
 
- .header-text { 
-    font-size: 22.9px;
-    line-height: 114px;
-    font-weight: 700;
-    color: #161616;
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 126px;
+}
 
- }
+.header-text {
+   font-size: 22.9px;
+   line-height: 114px;
+   font-weight: 700;
+   color: #161616;
+
+}
 
 .block-1 .conteiner-tochki {
-    display: flex;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
 }
 
-.big-slider { 
+.big-slider {
    width: 1170px;
    height: 572px;
-   background-color: #e9e9e9; 
+   background-color: #e9e9e9;
    margin: 0 40px 0 40px;
 }
 
-.tochka { 
-    border-radius: 100%;
-    width: 15px;
-    height: 15px;
-    background-color: #d5d5d5;
-    margin-right: 12px;
-    margin-top: 22px ;
+.tochka {
+   border-radius: 100%;
+   width: 15px;
+   height: 15px;
+   background-color: #d5d5d5;
+   margin-right: 12px;
+   margin-top: 22px;
 }
 
 .tochka1 {
-    background-color: black;
+   background-color: black;
+}
+
+/* вТОРОЙ БЛОК проект заглавие    */
+
+.block-2 {
+   margin-left: 40px;
+   margin-right: 50px;
+   display: flex;
+   margin-top: 70px;
+}
+
+.child-conteiner-1 {
+   width: 600px;
+}
+
+.caption {
+   font-family: Roboto;
+   font-size: 33.1px;
+   line-height: 113px;
+   font-weight: 700;
+   color: #161616;
+}
+
+
+
+.child-conteiner-1-text {
+
+   margin: auto;
+   margin-top: 100px;
+   width: 373px;
+
+}
+
+.text {
+   font-family: Roboto;
+   font-size: 16.6px;
+   line-height: 30px;
+   font-weight: 300;
+   letter-spacing: 0.025em;
+   color: #545454;
+}
+
+
+.child-conteiner-2 {
+   width: 556px;
+   height: 384px;
+   background-color: #e9e9e9;
+}
+
+/* ТРЕТИЙ БЛОК  */
+
+.block-3 {
+   margin-left: 40px;
+   margin-right: 50px;
+   margin-top: 140px;
+
+}
+
+.flex-conteiner-block-3 {
+   display: flex;
+}
+
+.block-3-conteiner-1 {
+   width: 570px;
+   height: 300px;
+}
+
+.block-3-conteiner-2-text {
+   width: 490px;
+   margin-left: 15px;
+}
+
+.block-3-conteiner-1-text {
+   margin-left: 15px;
+}
+
+.block-3-conteiner-3 {
+   display: flex;
+}
+
+.block-3-conteiner-3-card {
+   width: 368px;
+   height: 279px;
+   background-color: #e9e9e9;
+   margin-left: 18px;
+}
+
+.under-card {
+   margin-top: 130px;
+}
+
+/* Четвертый Блок */
+
+.block-4 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 125px 15px 0 15px;
+   padding: 30px;
+}
+
+.small-card-block-4 {
+   width: 554px;
+   height: 435px;
+   background-color: #e9e9e9;
+   margin-bottom: 31px;
+   padding: 30px;
+}
+
+
+
+.big-card-block-4 {
+   width: 1140px;
+   height: 573px;
+   background-color: #e9e9e9;
+}
+
+button {
+   
+   font-family: Roboto;
+   font-size: 15.3px;
+   letter-spacing: 0.025em;
+   color: #161616;
+   width: 193px;
+   height: 43px;
+   background-color: #ffffff;
+   border: 1px solid #161616;
+}
+
+.button-conteiner { 
+   display: flex;
+   justify-content: center;
+   margin-top: 95px;
+}
+
+/* Пятыц Блок */
+
+ .block-5 { 
+display: flex;
+justify-content: space-around;
+margin-top: 115px;
+margin-right: 240px;
+ }
+
+
+ul, a{ 
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-decoration-skip-ink: auto;
+   text-decoration:none;
+   color: #999999;
+}
+
+.option-email { 
+   color: #161616;
 }
